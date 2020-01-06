@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-X: hidden;
+  font-family: 'Montserrat';
+}
+.nav-car {
+  height: 60px !important;
+  border-radius: 0px !important;
+}
+
+.head-text {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.signout {
+  position: relative;
+  float: right;
+  font-size: 30px;
+  left: 145px;
+  top: -50px;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+.main {
+  padding-bottom: 60px;
+}
+
+.footer {
+  margin-top: -60px;
+  background-color: black;
+  height: 60px;
+  position: relative;
+  clear: both;
+  color: #fff;
+  text-align: center;
+}
+
+.line-graph {
+  height: 30vh !important;
+  min-width: 100%;
+}
+
+#footpara1 {
+  position: relative;
+  left: -40px;
+}
+
+#footpara2 {
+  position: relative;
+  right: 5px;
+}
+
+.fa-file-pdf-o{
+    color:#ef4048;
+    font-size:16px;
+}
+
+.Sno{
+  width: 10%;
+}
+
+#tb2 {
+		counter-reset: serial-number;  /* Set the serial number counter to 0 */
+		}
+#tb2 td:first-child:before {
+		counter-increment: serial-number;  /* Increment the serial number counter */
+		content: counter(serial-number);  /* Display the counter */
+		}
+
+.emty-th{
+   width: 10%; 
+}
+.cool>h3{
+    color: #ef4048;
+    font-weight: 600;
+    margin-bottom:-10px;
+}
+
+/*.resume-info:after{*/
+/*    content: '';*/
+/*    display: block;*/
+/*    height:3px;*/
+/*    width:40%;*/
+/*    position:relative;*/
+/*    left:30%;*/
+/*    margin-top:30px;*/
+/*    background-color:#eee;*/
+/*}*/
+
+.resume-info{
+   border:2px solid #eee;
+   padding:0 30px 30px;
+}
+h3{
+    margin: 30px 0px;
+    color: #0d416b;
+    font-weight: 600;
+}
+ h4{
+    margin: 30px 0px 15px;
+    color: #0d416b;
+    font-weight: 600;
+}
+.btn{
+ border-radius: 0px !important;   
+}
+
+th,tr,td{
+    word-wrap: break-word
+}
+
+#home-blue{
+	color:#2368ao;padding-left:2px;font-size:24px;
+}
+
+
+/* .cm { */
+	/* color: #FF0000; */
+/* } */
+
+/* .um { */
+	/* color: #0000FF; */
+/* } */
